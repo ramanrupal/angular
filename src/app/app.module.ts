@@ -7,7 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import { SignupComponent } from './signup/signup.component';
-
+ 
 let config = {
   apiKey: "AIzaSyAyrogPXBePjQB2gcV-J7BaCWt3WpVikGg",
   authDomain: "scribe-3cdef.firebaseapp.com",
