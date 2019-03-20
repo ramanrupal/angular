@@ -6,9 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-  firstName: string ="Intershala";
-  lastName :string ="dev";
-  number1:number=10;
+ 
   constructor() { }
 
   ngOnInit() {
