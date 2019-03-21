@@ -31,7 +31,7 @@ signup(email:string, password: string, first_name:string,last_name:string){
 
         }).then(() => {
 
-          resolve();
+          resolve(response.user);
 
         }).catch((error) => {
           reject(error);
