@@ -11,7 +11,11 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { MyblogsComponent } from './myblogs/myblogs.component';
 import { ProfileComponent } from './profile/profile.component';
- 
+import { CreateComponent } from './create/create.component';
+import { NgxEditorModule } from 'ngx-editor';
+import { HttpClient } from 'selenium-webdriver/http';
+import { HttpClientModule } from '@angular/common/http';
+import { PostComponent } from './post/post.component';
 let config = {
   apiKey: "AIzaSyAyrogPXBePjQB2gcV-J7BaCWt3WpVikGg",
   authDomain: "scribe-3cdef.firebaseapp.com",
@@ -41,13 +45,19 @@ firebase.initializeApp(config);
    
     MyblogsComponent,
    
-    ProfileComponent
+    ProfileComponent,
+   
+    CreateComponent,
+   
+    PostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxEditorModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
