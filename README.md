@@ -28,6 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 A social blogging app built with Angular and AngularFire using Firebase as backend and the new Cloud Firestore database.
-This is the
+This is the live server link 
 
 LIVE SERVER:-   https://scribe-3cdef.firebaseapp.com
